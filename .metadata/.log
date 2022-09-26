@@ -705,3 +705,126 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:16:16.320
 !MESSAGE executing callback sts4.classpath.dCsxgLai SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.124
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.165
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.169
+!MESSAGE buffering callback sts4.classpath.GkMPdcaz authorization-service true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.174
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.175
+!MESSAGE buffering callback sts4.classpath.GkMPdcaz authorization-service true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.176
+!MESSAGE executing callback sts4.classpath.GkMPdcaz 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.178
+!MESSAGE executing callback sts4.classpath.GkMPdcaz FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-09-26 15:28:53.180
+!MESSAGE No language server has registered to handle command 'sts4.classpath.GkMPdcaz'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.GkMPdcaz'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.251
+!MESSAGE buffering callback sts4.classpath.dCsxgLai authorization-service true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.257
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.349
+!MESSAGE buffering callback sts4.classpath.dCsxgLai authorization-service true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:53.361
+!MESSAGE executing callback sts4.classpath.dCsxgLai 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:55.220
+!MESSAGE executing callback sts4.classpath.dCsxgLai SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:55.231
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dCsxgLai
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:55.232
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dCsxgLai
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:55.234
+!MESSAGE subsribers = {sts4.classpath.GkMPdcaz=Send Classpath Notifications(832)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:28:55.237
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dCsxgLai => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.424
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.431
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.435
+!MESSAGE buffering callback sts4.classpath.GkMPdcaz authorization-service false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.437
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.440
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.443
+!MESSAGE buffering callback sts4.classpath.GkMPdcaz authorization-service false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.444
+!MESSAGE executing callback sts4.classpath.GkMPdcaz 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:35.446
+!MESSAGE executing callback sts4.classpath.GkMPdcaz FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-09-26 15:29:35.447
+!MESSAGE No language server has registered to handle command 'sts4.classpath.GkMPdcaz'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.GkMPdcaz'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:41.849
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:41.970
+!MESSAGE classpath=147 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:41.997
+!MESSAGE buffering callback sts4.classpath.GkMPdcaz authorization-service false 147
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:41.998
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:42.076
+!MESSAGE classpath=147 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:42.100
+!MESSAGE buffering callback sts4.classpath.GkMPdcaz authorization-service false 147
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:42.101
+!MESSAGE executing callback sts4.classpath.GkMPdcaz 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-26 15:29:42.103
+!MESSAGE executing callback sts4.classpath.GkMPdcaz FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-09-26 15:29:42.104
+!MESSAGE No language server has registered to handle command 'sts4.classpath.GkMPdcaz'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.GkMPdcaz'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
