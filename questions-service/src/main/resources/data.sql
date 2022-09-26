@@ -1,1 +1,1 @@
-insert into question values(1,'Who is the founder of c?','Dennis Rithie','James goshling','Guido van rosuum','Tim berners lee','Dennis Rithie','c');
+insert into question(questionid,question,optiona,optionb,optionc,optiond,answer,category) values(1,'Who is the founder of c?','Dennis Rithie','James goshling','Guido van rosuum','Tim berners lee','Dennis Rithie','c');
