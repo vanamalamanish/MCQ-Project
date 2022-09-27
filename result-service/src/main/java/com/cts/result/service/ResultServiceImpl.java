@@ -10,8 +10,8 @@ import com.cts.result.repository.ResultRepository;
 public class ResultServiceImpl implements ResultService {
 	@Autowired
 	private ResultRepository resultRepo;
-	@Autowired
-	private ResultModel result;
+	
+	private ResultModel result=new ResultModel();
 	
 	@Override
 	public char returnGrade(int noOfCorrectAnswers, int totalNoOfQuestions,int userId) {
