@@ -15,7 +15,9 @@ public class ResultServiceImpl implements ResultService {
 	
 	@Override
 	public char returnGrade(int noOfCorrectAnswers, int totalNoOfQuestions,int userId) {
-		float perc = ((float) noOfCorrectAnswers / totalNoOfQuestions) * 100;
+		System.out.println(totalNoOfQuestions);
+		System.out.println(noOfCorrectAnswers);
+		float perc = ( (float)noOfCorrectAnswers / totalNoOfQuestions) * 100;
 		char grade;
 		if (perc >= 90)
 			grade='A';
@@ -32,7 +34,10 @@ public class ResultServiceImpl implements ResultService {
 			grade='F';
 		result.setUserid(userId);
 		result.setPercentage(perc);
-		resultRepo.save(result);
+		
+		System.out.println(result.toString());
+		System.out.println(perc);
+		//resultRepo.save(result);
 		return grade;
 	}
 

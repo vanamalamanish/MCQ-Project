@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,7 +22,7 @@ public class ResultController {
 
 	@GetMapping("/result")
 	public ResponseEntity<Character> getResult(@RequestHeader(name = "Authorization") String token,
-			 ResponseModel response) throws TokenNotValidException {
+			@RequestBody ResponseModel response) throws TokenNotValidException {
 
 		if (feign.validate(token).getBody())
 			return new ResponseEntity<>(resultService.returnGrade(response.getNoOfCorrectAnswers(),

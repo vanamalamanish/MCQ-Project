@@ -53,4 +53,9 @@ public class ResultModel {
 		this.percentage = percentage;
 	}
 
+	@Override
+	public String toString() {
+		return "ResultModel [resultid=" + resultid + ", userid=" + userid + ", percentage=" + percentage + "]";
+	}
+
 }
