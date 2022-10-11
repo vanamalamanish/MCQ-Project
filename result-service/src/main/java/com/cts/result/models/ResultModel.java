@@ -14,7 +14,7 @@ public class ResultModel {
 //	@OneToOne(cascade = CascadeType.ALL)
 //	@JoinColumn(name = "user", referencedColumnName = "id")
 	@Column
-	private int userid;
+	private String username;
 	@Column
 	private float percentage;
 
@@ -26,12 +26,12 @@ public class ResultModel {
 		this.resultid = resultid;
 	}
 
-	public int getUserid() {
-		return userid;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setUserid(int userid) {
-		this.userid = userid;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public float getPercentage() {
@@ -46,16 +46,16 @@ public class ResultModel {
 		super();
 	}
 
-	public ResultModel(int resultid, int userid, float percentage) {
+	public ResultModel(int resultid, String username, float percentage) {
 		super();
 		this.resultid = resultid;
-		this.userid = userid;
+		this.username = username;
 		this.percentage = percentage;
 	}
 
 	@Override
 	public String toString() {
-		return "ResultModel [resultid=" + resultid + ", userid=" + userid + ", percentage=" + percentage + "]";
+		return "ResultModel [resultid=" + resultid + ", username=" + username + ", percentage=" + percentage + "]";
 	}
 
 }

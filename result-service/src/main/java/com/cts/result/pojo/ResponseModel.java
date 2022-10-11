@@ -4,7 +4,7 @@ public class ResponseModel {
 	
 private int noOfCorrectAnswers;
 private int totalNoOfQuestions;
-private int userId;
+private String username;
 public int getNoOfCorrectAnswers() {
 	return noOfCorrectAnswers;
 }
@@ -17,17 +17,17 @@ public int getTotalNoOfQuestions() {
 public void setTotalNoOfQuestions(int totalNoOfQuestions) {
 	this.totalNoOfQuestions = totalNoOfQuestions;
 }
-public int getUserId() {
-	return userId;
+public String getUsername() {
+	return username;
 }
-public void setUserId(int userId) {
-	this.userId = userId;
+public void setUsername(String username) {
+	this.username = username;
 }
-public ResponseModel(int noOfCorrectAnswers, int totalNoOfQuestions, int userId) {
+public ResponseModel(int noOfCorrectAnswers, int totalNoOfQuestions, String username) {
 	super();
 	this.noOfCorrectAnswers = noOfCorrectAnswers;
 	this.totalNoOfQuestions = totalNoOfQuestions;
-	this.userId = userId;
+	this.username = username;
 }
 public ResponseModel() {
 	super();
